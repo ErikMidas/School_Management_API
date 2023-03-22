@@ -133,16 +133,42 @@ Python3: [Get Python](https://www.python.org/downloads/)
    ```
 6. Open the link generated in the terminal on a browser or visit [http://localhost:5000](http://localhost:5000)
 
+
+
+---
+To interact with the live version of this API, follow these steps:
+
+1. Open the PythonAnywhere web app on your browser: https://erikmidas.pythonanywhere.com
+
+2. Create an admin or student account:
+   * Click "admin" to reveal a dropdown menu of administration routes, then register an admin account via the "/admin/register" route
+   * Click "students" to reveal a dropdown menu of student routes, then register a student account via the "/students/register" route
+   
+3. Sign in via the "/auth/login" route to generate a JWT token. Copy this access token without the quotation marks
+
+4. Scroll up to click "Authorize" at top right. Enter the JWT token in the given format, for example:
+   ```sh
+   Bearer this1is2a3rather4long5hex6string
+   ```
+5. Click "Authorize" and then "Close"
+
+6. Now authorized, you can create, view, update and delete students, courses, grades and admins via the many routes in 'students', 'courses' and 'admin'. You can     also get:
+    * All students taking a course
+    * All courses taken by a student
+    * A student's grades in percentage (eg: 84.8%) and letters (eg: A)
+    * A student's CGPA, calculated based on all grades from all courses they are taking
+
+7. When you're done, click "Authorize" at top right again to then "Logout"
+
 <p align="right"><a href="#readme-top">back to top</a></p>
 
 ---
-
 <!-- Sample Screenshot -->
 ## Sample
 
 <br />
 
-[![Sample Screenshot][API-screenshot]](https://github.com/ErikMidas/AltSch_Exam_Project/blob/main/images/sample.png)
+[![Sample Screenshot][API-screenshot]](https://github.com/ErikMidas/Student_Management_API/blob/main/images/sample.png)
 
 <br />
 
@@ -175,7 +201,6 @@ This project was made possible by:
 
 * [AltSchool Africa School of Engineering](https://altschoolafrica.com/schools/engineering)
 * [Caleb Emelike's Flask Lessons](https://github.com/CalebEmelike)
-* [Austin Wopara's AltSchool Python Repo](https://github.com/Ze-Austin/altschool-python)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 

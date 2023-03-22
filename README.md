@@ -19,7 +19,7 @@
 ---
 <div>
   <p align="center">
-    <a href="https://github.com/ErikMidas/AltSch_Exam_Project#readme"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ErikMidas/Student_Management_API#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="/images/sample.png">View Demo</a>

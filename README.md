@@ -13,37 +13,32 @@
   [![Twitter][twitter-shield]][twitter-url]
 </div>
 
-<!-- Project Logo -->
-<br />
-<div align="center">
-  <a href="https://github.com/ErikMidas/AltSch_Exam_Project">
-    <img src="/static/images/Midas%20Blog%20Logo.png" alt="Logo" width="50%" height="30%">
-  </a>
-</div>
+<!-- Project Intro -->
 
-<br />
-
+# A Typical School Management System API Built with Flask
+---
 <div>
   <p align="center">
     <a href="https://github.com/ErikMidas/AltSch_Exam_Project#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="/static/images/Midas%20Blog.png">View Demo</a>
+    <a href="/images/sample.png">View Demo</a>
     ·
-    <a href="https://github.com/ErikMidas/AltSch_Exam_Project/issues">Report Bug</a>
+    <a href="https://github.com/ErikMidas/Student_Management_API/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ErikMidas/AltSch_Exam_Project/issues">Request Feature</a>
+    <a href="https://github.com/ErikMidas/Student_Management_API/issues">Request Feature</a>
   </p>
 </div>
 
 ---
+
 
 <!-- Table of Contents -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-midas-blog">About Midas Blog</a>
+      <a href="#about">About</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -68,12 +63,12 @@
 
 ---
 
-<!-- About the Blog -->
-## About Midas Blog
+<!-- About -->
+## About
 
-Midas Blog is one of the projects I've been able to craft with my coding skills. It was built as an exam project for Backend Engineering track using Python Flask framework at <a href="https://altschoolafrica.com/schools/engineering">AltSchool Africa</a>.
+This Student Management API is one of the projects I've been able to craft with my coding skills. It was built as an exam project for Backend Engineering track using Python Flask framework at <a href="https://altschoolafrica.com/schools/engineering">AltSchool Africa</a>.
 
-Authentication is not required to read posts on this blog, but you'll have log in to make new post, edit or delete your blog posts.
+This is a school management system API built with Flask and Flask_RestX built by according to [this requirements](https://docs.google.com/document/d/19ayXN5P1oV2aqW_7-As6EUpn7OQShkpAlZK4wRbrgBQ/). It is a simple API that allows an Admin to perform CRUD operations on students and courses. It also allows you to register students to courses and add grade for students.
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -81,9 +76,6 @@ Authentication is not required to read posts on this blog, but you'll have log i
 
 ![Python][python]
 ![Flask][flask]
-![Jinja][jinja]
-![HTML5][html5]
-![CSS3][css3]
 ![SQLite][sqlite]
 
 <p align="right"><a href="#readme-top">back to top</a></p>
@@ -92,16 +84,17 @@ Authentication is not required to read posts on this blog, but you'll have log i
 <!-- Lessons from the Project -->
 ## Lessons Learned
 
-Creating this blog helped me learn and practice:
-* Web Design
+Creating this API helped me learn and practice:
+* API Development with Python
+* App Deployment with PythonAnywhere
+* Testing with pytest and Insomnia
+* Documentation
 * Debugging
 * Routing
 * Database Management
 * Internet Security
 * User Authentication
 * User Authorization
-* Flash Messaging
-* Documentation
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -120,21 +113,25 @@ Python3: [Get Python](https://www.python.org/downloads/)
 
 1. Clone this repo
    ```sh
-   git clone https://github.com/ErikMidas/AltSch_Exam_Project.git
+   git clone https://github.com/ErikMidas/Student_Management_API.git
    ```
-2. Activate the virtual environment
+2. Create a virtual environment
    ```sh
-   source exam_venv/Scripts/activate
+   python -m venv env
    ```
-3. Install project packages
+3. Activate the virtual environment
+   ```sh
+   source env/Scripts/activate
+   ```
+4. Install project packages
    ```sh
    pip install -r requirements.txt
    ```
-4. Run Flask
+5. Run Flask
    ```sh
-   python app.py
+   python runserver.py
    ```
-5. Open the link generated in the terminal on a browser or visit [http://localhost:4000](http://localhost:4000)
+6. Open the link generated in the terminal on a browser or visit [http://localhost:5000](http://localhost:5000)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -144,25 +141,17 @@ Python3: [Get Python](https://www.python.org/downloads/)
 ## Sample
 
 <br />
-<p>Sample 1</p>
 
-[![Midas Blog Screenshot][Midas-blog-screenshot]](https://github.com/ErikMidas/AltSch_Exam_Project/blob/main/static/images/Midas%20Blog.png)
+[![Sample Screenshot][API-screenshot]](https://github.com/ErikMidas/AltSch_Exam_Project/blob/main/images/sample.png)
 
 <br />
-
-Sample 2
-
-<img src="/static/images/Midas%20Blog2.png" alt="sample"/>
-<br/>
-
-<p align="right"><a href="#readme-top">back to top</a></p>
 
 ---
 
 <!-- License -->
 ## License
 
-Distributed under the MIT License. See <a href="https://github.com/ErikMidas/AltSch_Exam_Project/blob/main/LICENSE">LICENSE</a> for more information.
+Distributed under the MIT License. See <a href="https://github.com/ErikMidas/Student_Management_API/blob/main/LICENSE">LICENSE</a> for more information.
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -173,7 +162,7 @@ Distributed under the MIT License. See <a href="https://github.com/ErikMidas/Alt
 
 Ayodeji Okulaja - [@Koats14](https://twitter.com/koats14) - ayotoku@gmail.com
 
-Project Link: [Midas Blog](https://github.com/ErikMidas/AltSch_Exam_Project)
+Project Link: [PythonAnywhere](https://erikmidas.pythonanywhere.com/)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -187,8 +176,6 @@ This project was made possible by:
 * [AltSchool Africa School of Engineering](https://altschoolafrica.com/schools/engineering)
 * [Caleb Emelike's Flask Lessons](https://github.com/CalebEmelike)
 * [Austin Wopara's AltSchool Python Repo](https://github.com/Ze-Austin/altschool-python)
-* [Isaac Okanigbe's Frontend Design](https://github.com/Blackbullet99/Altschool-Assignment)
-* [Stack Overflow](https://stackoverflow.com/)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 

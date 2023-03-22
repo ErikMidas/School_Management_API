@@ -51,6 +51,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#live-demo">Live Demo</a></li>
       </ul>
     </li>    
     <li><a href="#sample">Sample</a></li>
@@ -136,6 +137,7 @@ Python3: [Get Python](https://www.python.org/downloads/)
 
 
 ---
+### Live Demo
 To interact with the live version of this API, follow these steps:
 
 1. Open the PythonAnywhere web app on your browser: https://erikmidas.pythonanywhere.com
@@ -163,14 +165,17 @@ To interact with the live version of this API, follow these steps:
 <p align="right"><a href="#readme-top">back to top</a></p>
 
 ---
+
 <!-- Sample Screenshot -->
 ## Sample
 
 <br />
 
-[![Sample Screenshot][API-screenshot]](https://github.com/ErikMidas/Student_Management_API/blob/main/images/sample.png)
+<img src="/images/sample.png" alt="sample"/>
 
 <br />
+
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 ---
 

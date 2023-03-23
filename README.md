@@ -154,7 +154,7 @@ To interact with the live version of this API, follow these steps:
    ```
 5. Click "Authorize" and then "Close"
 
-6. Now authorized, you can create, view, update and delete students, courses, grades and admins via the many routes in 'students', 'courses' and 'admin'. You can     also get:
+6. Now authorized, you can create, view, update and delete students, courses, grades and admins via the many routes in "students", "courses" and "admin". You can     also get:
     * All students taking a course
     * All courses taken by a student
     * A student's grades in percentage (eg: 84.8%) and letters (eg: A)
